@@ -1,13 +1,3 @@
-// ─────────────────────────────────────────────
-// app/api/analyze/route.js
-// The only API endpoint in this app: POST /api/analyze
-//
-// Flow:
-//   1. Read { username } from the request body
-//   2. Fetch GitHub data  (lib/github.js)
-//   3. Send data to Gemini AI  (lib/gemini.js)
-//   4. Return everything to the frontend as JSON
-// ─────────────────────────────────────────────
 
 import { NextResponse } from 'next/server';
 import { getGitHubContext } from '@/lib/github';

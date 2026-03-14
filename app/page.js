@@ -1,8 +1,3 @@
-// ─────────────────────────────────────────────────────────
-// app/page.js
-// Home page — search form and navigation to the dashboard.
-// ─────────────────────────────────────────────────────────
-
 "use client";
 
 import { useState, useEffect, startTransition } from "react";
